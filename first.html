@@ -4,6 +4,19 @@
         <body>
             <a href="https://liv.ibomma.nexus/telugu-movies/" target="blank">Movies</a>
             <form>
+                <div>
+                    <label for="user">Username</label>
+                    <input type="text" id="user" value="sandhya" required>           
+                </div><br>
+                <div>
+                    <label for="pwd"> Password</label>
+                    <input type="password" id="pwd" maxlength="8" minlength="4" required>
+                </div><br>
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+                
                 <p><b>List items</b></p>
                 <ol>
                     <li> Avengers</li>
@@ -42,12 +55,24 @@
                     <input type="radio" id="best" name="rating" value="best">
                     <label for="best">best</label>
                  </div><br><br>
+                 <div>
+                    <p>Add Review</p>
+                <select>
+                    <label for="Add Review">Add Review</label>
+                
+                    <option value="1">Bad</option>
+                    <option value="2">Good</option>
+                    <option value="3">Average</option>
+                
+                </select>
+                </div><br>
                 </form>
                 <table border='3'>
                     <tr>
                         <th> movie poster </th>
                         <th> movie name </th>
                         <th> rating </th>
+                        <th> theme song</th>
                     </tr>
                     <tr>
                         <td>
@@ -57,6 +82,12 @@
                         </td>
                         <td> Avengers</td>
                         <td> 8.6</td>
+                        <td>
+                            <audio controls>
+                                <source src="C:\Users\Windows\Downloads\Avengers-Theme.mp3" type="audio">
+                                <source src="C:\Users\Windows\Downloads\Avengers-Theme.mp3" type="audio/mpeg">
+                            </audio>
+                        </td>
 
                     </tr>
                     <tr>
@@ -67,6 +98,12 @@
                         </td>
                         <td> Leo</td>
                         <td> 8.6</td>
+                        <td>
+                            <audio controls>
+                                <source src="C:\Users\Windows\Downloads\Badass.mp3" type="audio">
+                                <source src="C:\Users\Windows\Downloads\Badass.mp3" type="audio/mpeg">
+                            </audio> 
+                        </td>
                     </tr>
                     <tr>
                         <td>
@@ -76,8 +113,15 @@
                         </td>
                         <td> Avengers</td>
                         <td> 9.9</td>
+                        <td>
+                            <audio controls>
+                                <source src="C:\Users\Windows\Downloads\ironman.mp3" type="audio">
+                                <source src="C:\Users\Windows\Downloads\ironman.mp3" type="audio/mpeg">
+                            </audio>
+                        </td>
                     </tr>
                 </table>
             </div>
         </body>
     </html>
+
