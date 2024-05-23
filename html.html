@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<hytml>
+    <head> <title>Movies</title>
+        <link href="style.css"rel="stylesheet" type="text/css">
+        <style>
+            .main{
+                font-size:25px;
+                font-color:rgb(227, 22, 227);
+                font-weight:bold;
+                text-align: left;
+            }
+
+            #box{
+                background-color: rgb(204, 55, 125);
+                height:120px;
+                width:120px;
+                /*width:min-content*/
+                margin:20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border:6px solid black;
+                padding:10px;
+                box-sizing: content-box;
+                box-align: center;
+            }
+            #box1{
+                background-color: rgb(231, 227, 235);
+                width:500px;
+                height:200px;
+                border:25px solid black;
+                margin-top:10px;
+                margin-bottom:10px;
+                padding:10px;
+                overflow: auto;
+            }
+            .one{
+                font-size:35px;
+                font-weight: bold;
+                text-align:center;
+            }
+            
+        </style>
+    </head>
+        <body>
+            <div>
+                <div class="main" style="color:rgb(235, 58, 9)">
+                    HARRY POTTER
+                </div>
+                <div id="box">
+                    <img src="Harry.jpg" height="120" width="120">
+                </div>
+            </div>
+            <div>
+                <div id="box1">
+                    <div class="one">
+                        <h3 style="color:rgb(232, 86, 86)">Harry Potter</h3>
+                        <p style="font-weight: lighter;font-size:20px;">The story begins when 11-year-old orphan Harry discovers that his parents were wizards and he starts his education in magic at Hogwart's School of Witchcraft and Wizardry</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="Avengers.jpg" height="150" width="150" >
+            </div>
+            <a href="https://liv.ibomma.nexus/telugu-movies/" target="blank">Movies</a>
+            <form>
+                <div>
+                    <label for="user">Username</label>
+                    <input type="text" id="user" value="sandhya" required>           
+                </div><br>
+                <div>
+                    <label for="pwd"> Password</label>
+                    <input type="password" id="pwd" maxlength="8" minlength="4" required>
+                </div><br>
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+                
+                <h1><b>List items</b></h1>
+                <ol>
+                    <li> Avengers</li>
+                    <li> Leo</li>
+                    <li> Ironman</li>
+                </ol>
+                <ul>
+                    <li> Avengers</li>
+                    <li> Leo</li>
+                    <li> Ironman</li>
+                </ul>
+
+            <p font-color: aqua><b>Select the Movies</b></p>     
+                 <div>
+                    <input type="checkbox" id="Avengers" name="movie" value="Avengers">
+                    <label for="Avengers">Avengers</label>
+                 </div>
+                 <div>
+                    <input type="checkbox" id="Leo" name="movie" value="Leo">
+                    <label for="Leo">Leo</label>
+                 </div>
+                 <div>
+                    <input type="checkbox" id="ironman" name="movie" value="ironman">
+                    <label for="ironman">ironman</label>
+                 </div>
+                 <p><b>Give the review for the above selected movie</b></p>
+                 <div>
+                    <input type="radio" id="good" name="rating" value="good">
+                    <label for="good">good</label>
+                 </div>
+                 <div>
+                    <input type="radio" id="better" name="rating" value="better">
+                    <label for="better">better</label>
+                 </div>
+                 <div>
+                    <input type="radio" id="best" name="rating" value="best">
+                    <label for="best">best</label>
+                 </div><br><br>
+                 <div>
+                    <p>Add Review</p>
+                <select>
+                    <label for="Add Review">Add Review</label>
+                
+                    <option value="1">Bad</option>
+                    <option value="2">Good</option>
+                    <option value="3">Average</option>
+                
+                </select>
+                </div><br>
+                </form>
+                <table border='3'>
+                    <tr>
+                        <th> movie poster </th>
+                        <th> movie name </th>
+                        <th> rating </th>
+                        <th> theme song</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.hotstar.com/in/movies/avengers-endgame/1260013556">
+                            <img src="Avengers.jpg" height="100" width="100" alt="Avengers movie">
+                            </a>
+                        </td>
+                        <td> Avengers</td>
+                        <td> 8.6</td>
+                        <td>
+                            <audio controls>
+                                <source src="C:\Users\Windows\Downloads\Avengers-Theme.mp3" type="audio">
+                                <source src="C:\Users\Windows\Downloads\Avengers-Theme.mp3" type="audio/mpeg">
+                            </audio>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://kick.ibomma.name/te-a2ftv/leo-2023-pcf3d-telugu-movie-watch-online.html">
+                            <img src="leo.jpeg" height="100" width="100" alt="Leo movie">
+                            </a>
+                        </td>
+                        <td> Leo</td>
+                        <td> 8.6</td>
+                        <td>
+                            <audio controls>
+                                <source src="C:\Users\Windows\Downloads\Badass.mp3" type="audio">
+                                <source src="C:\Users\Windows\Downloads\Badass.mp3" type="audio/mpeg">
+                            </audio> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.hotstar.com/in/movies/iron-man/1660000038">
+                            <img src="Ironman.jpg" height="100" width="100" alt="Ironman movie">
+                            </a>
+                        </td>
+                        <td> Avengers</td>
+                        <td> 9.9</td>
+                        <td>
+                            <audio controls>
+                                <source src="C:\Users\Windows\Downloads\ironman.mp3" type="audio">
+                                <source src="C:\Users\Windows\Downloads\ironman.mp3" type="audio/mpeg">
+                            </audio>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </body>
+    </html>
